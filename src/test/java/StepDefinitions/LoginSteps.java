@@ -22,7 +22,7 @@ public class LoginSteps {
 		System.out.println("Project path is :" +projectPath);
 
 		//System.setProperty("webdriver.chrome.driver", projectPath+"/src/test/resources/drivers/chromedriver.exe"); // should use relative path Windows Version
-		System.setProperty("webdriver.chrome.driver", projectPath+"/src/test/resources/drivers/chromedriver"); // should use relative path Linux Version
+		System.setProperty("webdriver.chrome.driver", projectPath+"/src/test/resources/drivers/linux/chromedriver"); // should use relative path Linux Version
 		//System.setProperty("webdriver.chrome.driver", "D:/Java/cucumberSelenium/src/test/resources/drivers/chromedriver.exe"); // should use relative path
 
 		driver = new ChromeDriver();
