@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="43.392">
-<testcase classname="feature to test google search functionality" name="Validate google search is working" time="9.575">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="48.218">
+<testcase classname="feature to test google search functionality" name="Validate google search is working" time="13.062">
 <system-out><![CDATA[Given browser is open.......................................................passed
 And user is on google search page...........................................passed
 When user enters a test in search box.......................................passed
@@ -8,7 +8,7 @@ And hits enter..............................................................pass
 Then user is navigated to search results....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test login funnctionality" name="Check login is successful with valid credenntials" time="11.272">
+<testcase classname="feature to test login funnctionality" name="Check login is successful with valid credenntials" time="11.51">
 <system-out><![CDATA[Given browser is opened.....................................................passed
 And user is on login page...................................................passed
 When user enters anzo and 12345.............................................passed
@@ -16,7 +16,7 @@ And clicks on login button..................................................pass
 Then user is navigated to the home page.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test login funnctionality" name="Check login is successful with valid credenntials 2" time="10.967">
+<testcase classname="feature to test login funnctionality" name="Check login is successful with valid credenntials 2" time="11.19">
 <system-out><![CDATA[Given browser is opened.....................................................passed
 And user is on login page...................................................passed
 When user enters cucumber and 12345.........................................passed
@@ -24,7 +24,7 @@ And clicks on login button..................................................pass
 Then user is navigated to the home page.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test login funnctionality" name="Check login is successful with valid credenntials 3" time="11.263">
+<testcase classname="feature to test login funnctionality" name="Check login is successful with valid credenntials 3" time="12.187">
 <system-out><![CDATA[Given browser is opened.....................................................passed
 And user is on login page...................................................passed
 When user enters happynewyear and 12345.....................................passed
