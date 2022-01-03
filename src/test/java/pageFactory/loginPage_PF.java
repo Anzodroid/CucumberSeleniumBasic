@@ -1,5 +1,7 @@
 package pageFactory;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -9,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 public class loginPage_PF {
 	
 	@FindBy(id = "name")
-	@CacheLookup  //usefull for websites that dont change -- saved page to cache 
+	@CacheLookup  //usefull for websites that dont change -- saved page to cache / dont use with Ajax
 	WebElement txt_username;
 	
 	@FindBy(id = "password")
@@ -17,6 +19,9 @@ public class loginPage_PF {
 	
 	@FindBy(id = "login")
 	WebElement btn_login;
+	
+	@FindBy(partialLinkText = "texttofind") // useful to find hard to get elements
+	List<WebElement> mylinks;
 	
 	
 	WebDriver driver;
