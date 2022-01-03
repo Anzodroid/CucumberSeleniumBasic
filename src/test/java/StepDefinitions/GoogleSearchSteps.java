@@ -49,13 +49,14 @@ public void user_enters_a_test_in_search_box() {
 public void hits_enter() throws InterruptedException {
 	System.out.println("InsideStep - hits enter");
 	driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
-	Thread.sleep(2000);
+	Thread.sleep(1000);
 }
 
 @Then("user is navigated to search results")
-public void user_is_navigated_to_search_results() {
+public void user_is_navigated_to_search_results() throws InterruptedException {
 	System.out.println("InsideStep - search results");
 	driver.getPageSource().contains("Online Courses");
+	Thread.sleep(1000);
 	
 	driver.close();
 	driver.quit();
